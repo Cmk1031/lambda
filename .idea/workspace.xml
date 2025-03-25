@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex0Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Procedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex1RefMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/start/Ex1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/start/Ex1Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,12 +39,13 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Ex0Main.executor": "Run",
+    "Application.Ex1Main.executor": "Run",
+    "Application.Ex1RefMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -45,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Ex1RefMain">
     <configuration name="Ex0Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.start.Ex0Main" />
       <module name="java-adv3" />
@@ -59,8 +73,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.start.Ex1Main" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex1RefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.start.Ex1RefMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex1RefMain" />
+        <item itemvalue="Application.Ex1Main" />
         <item itemvalue="Application.Ex0Main" />
       </list>
     </recent_temporary>
@@ -73,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742902021545</updated>
-      <workItem from="1742902022527" duration="1291000" />
+      <workItem from="1742902022527" duration="2749000" />
     </task>
     <servers />
   </component>
