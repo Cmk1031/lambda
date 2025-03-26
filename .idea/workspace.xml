@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/LambdaSimple1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/LambdaSimple2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/LambdaSimple3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/LambdaSimple4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/Greet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1After.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1Before.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/MyFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/MyFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/Procedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/Procedure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,6 +51,8 @@
     "Application.LambdaPassMain2.executor": "Run",
     "Application.LambdaPassMain3.executor": "Run",
     "Application.LambdaSimple1.executor": "Run",
+    "Application.M1After.executor": "Run",
+    "Application.M1Before.executor": "Run",
     "Application.MyFunction2.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
@@ -82,7 +78,7 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaPassMain3">
+  <component name="RunManager" selected="Application.M1After">
     <configuration name="LambdaPassMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain1" />
       <module name="java-adv3" />
@@ -122,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.LambdaSimple1" />
+    <configuration name="M1After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M1After" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.SamMain" />
+    <configuration name="M1Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M1Before" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M1After" />
+        <item itemvalue="Application.M1Before" />
         <item itemvalue="Application.LambdaPassMain3" />
         <item itemvalue="Application.LambdaPassMain2" />
         <item itemvalue="Application.LambdaPassMain1" />
-        <item itemvalue="Application.LambdaSimple1" />
-        <item itemvalue="Application.SamMain" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742902021545</updated>
       <workItem from="1742902022527" duration="8964000" />
-      <workItem from="1742988509041" duration="1596000" />
+      <workItem from="1742988509041" duration="2261000" />
     </task>
     <servers />
   </component>
