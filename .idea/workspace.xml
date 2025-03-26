@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex4/M4MeasureTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex5/M5Return.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex5/MyFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MyPredicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/ex3/M3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/ex3/M3MeasureTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,8 @@
     "Application.Ex1RefMain.executor": "Run",
     "Application.Ex1RefMainV2.executor": "Run",
     "Application.Ex1RefMainV4.executor": "Run",
+    "Application.FilterExample.executor": "Run",
+    "Application.FilterExample2.executor": "Run",
     "Application.InstanceMain.executor": "Run",
     "Application.LambdaPassMain1.executor": "Run",
     "Application.LambdaPassMain2.executor": "Run",
@@ -78,29 +79,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="lambda.ex4" />
       <recent name="lambda.ex2" />
+      <recent name="lambda.ex4" />
       <recent name="lambda.lambda2" />
       <recent name="lambda.lambda1" />
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M5Return">
-    <configuration name="M1After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M1After" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M2After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.M2After" />
+  <component name="RunManager" selected="Application.FilterExample2">
+    <configuration name="FilterExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExample1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +100,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M2Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.M2Before" />
+    <configuration name="FilterExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExample2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M2After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.M2After" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterExample2" />
+        <item itemvalue="Application.FilterExample1" />
         <item itemvalue="Application.M5Return" />
         <item itemvalue="Application.M3MeasureTime" />
         <item itemvalue="Application.M2After" />
-        <item itemvalue="Application.M2Before" />
-        <item itemvalue="Application.M1After" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742902021545</updated>
       <workItem from="1742902022527" duration="8964000" />
-      <workItem from="1742988509041" duration="3882000" />
+      <workItem from="1742988509041" duration="4583000" />
     </task>
     <servers />
   </component>
