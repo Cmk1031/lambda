@@ -4,7 +4,7 @@ import lambda.Procedure;
 
 import java.util.Arrays;
 
-public class M3 {
+public class M3MeasureTime {
 
     public static void measure(Procedure procedure) {
         long startNs = System.nanoTime();
