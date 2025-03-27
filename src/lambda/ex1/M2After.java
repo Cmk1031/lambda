@@ -1,4 +1,4 @@
-package lambda.ex2;
+package lambda.ex1;
 
 public class M2After {
     public static void main(String[] args) {

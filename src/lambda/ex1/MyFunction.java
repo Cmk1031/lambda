@@ -1,4 +1,4 @@
-package lambda.ex5;
+package lambda.ex1;
 
 @FunctionalInterface
 public interface MyFunction {
