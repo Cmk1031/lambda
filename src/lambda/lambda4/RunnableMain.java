@@ -1,5 +1,7 @@
 package lambda.lambda4;
 
+import java.util.function.Predicate;
+
 public class RunnableMain {
     public static void main(String[] args) {
         Runnable runnable1 = new Runnable() {
