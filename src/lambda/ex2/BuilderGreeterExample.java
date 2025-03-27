@@ -15,8 +15,5 @@ public class BuilderGreeterExample {
 
         System.out.println(hello.apply("java"));
         System.out.println(hi.apply("lambda"));
-
-
     }
-
 }
