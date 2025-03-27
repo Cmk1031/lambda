@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/ConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/Function4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/SupplierMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +46,7 @@
   "keyToString": {
     "Application.BuilderGreeterExample.executor": "Run",
     "Application.ComposeExample.executor": "Run",
+    "Application.ConsumerMain.executor": "Run",
     "Application.Ex0Main.executor": "Run",
     "Application.Ex1Main.executor": "Run",
     "Application.Ex1RefMain.executor": "Run",
@@ -51,6 +55,7 @@
     "Application.FilterExample.executor": "Run",
     "Application.FilterExample1.executor": "Run",
     "Application.FilterExample2.executor": "Run",
+    "Application.Function4.executor": "Run",
     "Application.GenericMain1.executor": "Run",
     "Application.GenericMain2.executor": "Run",
     "Application.GenericMain3.executor": "Run",
@@ -73,6 +78,9 @@
     "Application.ReduceExample.executor": "Run",
     "Application.ReduceExamplePrac.executor": "Run",
     "Application.SamMain.executor": "Run",
+    "Application.SupplierMain.executor": "Run",
+    "Application.TargetType2.executor": "Run",
+    "Application.TargetType3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -83,7 +91,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,65 +104,65 @@
       <recent name="lambda.lambda1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMain3">
-    <configuration name="GenericMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain1" />
+  <component name="RunManager" selected="Application.RunnableMain">
+    <configuration name="ConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.ConsumerMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Function4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.Function4" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.RunnableMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplierMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.SupplierMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetType3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lambda.lambda3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain2" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain3" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapExamplePrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.MapExamplePrac" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReduceExamplePrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ReduceExamplePrac" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericMain3" />
-        <item itemvalue="Application.GenericMain2" />
-        <item itemvalue="Application.GenericMain1" />
-        <item itemvalue="Application.ReduceExamplePrac" />
-        <item itemvalue="Application.MapExamplePrac" />
+        <item itemvalue="Application.RunnableMain" />
+        <item itemvalue="Application.SupplierMain" />
+        <item itemvalue="Application.ConsumerMain" />
+        <item itemvalue="Application.Function4" />
+        <item itemvalue="Application.TargetType3" />
       </list>
     </recent_temporary>
   </component>
@@ -182,11 +190,16 @@
       <updated>1742902021545</updated>
       <workItem from="1742902022527" duration="8964000" />
       <workItem from="1742988509041" duration="8747000" />
-      <workItem from="1743033580928" duration="11460000" />
+      <workItem from="1743033580928" duration="12540000" />
+      <workItem from="1743073309104" duration="3762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
