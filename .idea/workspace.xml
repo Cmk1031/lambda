@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/ex2/BuilderGreeterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/ex2/BuilderGreeterExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,9 @@
     "Application.FilterExample.executor": "Run",
     "Application.FilterExample1.executor": "Run",
     "Application.FilterExample2.executor": "Run",
+    "Application.GenericMain1.executor": "Run",
+    "Application.GenericMain2.executor": "Run",
+    "Application.GenericMain3.executor": "Run",
     "Application.InstanceMain.executor": "Run",
     "Application.LambdaPassMain1.executor": "Run",
     "Application.LambdaPassMain2.executor": "Run",
@@ -84,20 +89,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.lambda3" />
       <recent name="lambda.ex2" />
       <recent name="lambda.ex4" />
       <recent name="lambda.lambda2" />
       <recent name="lambda.lambda1" />
-      <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReduceExamplePrac">
-    <configuration name="ComposeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExample" />
+  <component name="RunManager" selected="Application.GenericMain3">
+    <configuration name="GenericMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
+          <option name="PATTERN" value="lambda.lambda3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExample1" />
+    <configuration name="GenericMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M5Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M5Return" />
+    <configuration name="GenericMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
+          <option name="PATTERN" value="lambda.lambda3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMain3" />
+        <item itemvalue="Application.GenericMain2" />
+        <item itemvalue="Application.GenericMain1" />
         <item itemvalue="Application.ReduceExamplePrac" />
         <item itemvalue="Application.MapExamplePrac" />
-        <item itemvalue="Application.FilterExample1" />
-        <item itemvalue="Application.M5Return" />
-        <item itemvalue="Application.ComposeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +182,7 @@
       <updated>1742902021545</updated>
       <workItem from="1742902022527" duration="8964000" />
       <workItem from="1742988509041" duration="8747000" />
-      <workItem from="1743033580928" duration="8526000" />
+      <workItem from="1743033580928" duration="11460000" />
     </task>
     <servers />
   </component>
