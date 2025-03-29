@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex1_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex2_Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,69 +38,69 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BuilderGreeterExample.executor": "Run",
-    "Application.ComposeExample.executor": "Run",
-    "Application.ConsumerMain.executor": "Run",
-    "Application.Ex0Main.executor": "Run",
-    "Application.Ex1Main.executor": "Run",
-    "Application.Ex1RefMain.executor": "Run",
-    "Application.Ex1RefMainV2.executor": "Run",
-    "Application.Ex1RefMainV4.executor": "Run",
-    "Application.Ex1_Number.executor": "Run",
-    "Application.FilterExample.executor": "Run",
-    "Application.FilterExample1.executor": "Run",
-    "Application.FilterExample2.executor": "Run",
-    "Application.FilterMainV1.executor": "Run",
-    "Application.FilterMainV2.executor": "Run",
-    "Application.FilterMainV5.executor": "Run",
-    "Application.Function4.executor": "Run",
-    "Application.GenericMain1.executor": "Run",
-    "Application.GenericMain2.executor": "Run",
-    "Application.GenericMain3.executor": "Run",
-    "Application.InstanceMain.executor": "Run",
-    "Application.LambdaPassMain1.executor": "Run",
-    "Application.LambdaPassMain2.executor": "Run",
-    "Application.LambdaPassMain3.executor": "Run",
-    "Application.LambdaSimple1.executor": "Run",
-    "Application.M1After.executor": "Run",
-    "Application.M1Before.executor": "Run",
-    "Application.M2After.executor": "Run",
-    "Application.M2Before.executor": "Run",
-    "Application.M3.executor": "Run",
-    "Application.M5Return.executor": "Run",
-    "Application.MapExample.executor": "Run",
-    "Application.MapExamplePrac.executor": "Run",
-    "Application.MapMainV2.executor": "Run",
-    "Application.MapMainV4.executor": "Run",
-    "Application.MapMainV5.executor": "Run",
-    "Application.MyFunction2.executor": "Run",
-    "Application.OperatorMain.executor": "Run",
-    "Application.PredicateMain.executor": "Run",
-    "Application.ProcedureMain1.executor": "Run",
-    "Application.ProcedureMain2.executor": "Run",
-    "Application.ReduceExample.executor": "Run",
-    "Application.ReduceExamplePrac.executor": "Run",
-    "Application.RunnableMain.executor": "Run",
-    "Application.SamMain.executor": "Run",
-    "Application.SupplierMain.executor": "Run",
-    "Application.TargetType2.executor": "Run",
-    "Application.TargetType3.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BuilderGreeterExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComposeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsumerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex0Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1RefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1RefMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1RefMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterMainV5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Function4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstanceMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaPassMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaPassMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaPassMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaSimple1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M1After.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M1Before.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M2After.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M2Before.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M5Return.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExamplePrac.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapMainV5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyFunction2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperatorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PredicateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcedureMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcedureMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReduceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReduceExamplePrac.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SamMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SupplierMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TargetType2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TargetType3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lambda.lambda5.map" />
@@ -109,7 +110,7 @@
       <recent name="lambda.lambda3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex1_Number">
+  <component name="RunManager" selected="Application.Ex2_Student">
     <configuration name="Ex1_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex1_Number" />
       <module name="java-adv3" />
@@ -123,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV5" />
+    <configuration name="Ex2_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex2_Student" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.filter.*" />
+          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex2_Student" />
         <item itemvalue="Application.Ex1_Number" />
         <item itemvalue="Application.MapMainV5" />
         <item itemvalue="Application.MapMainV4" />
         <item itemvalue="Application.MapMainV2" />
-        <item itemvalue="Application.FilterMainV5" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +199,7 @@
       <workItem from="1743033580928" duration="12540000" />
       <workItem from="1743073309104" duration="7175000" />
       <workItem from="1743119437191" duration="6616000" />
+      <workItem from="1743209291834" duration="1077000" />
     </task>
     <servers />
   </component>
