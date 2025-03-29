@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/GenericMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/StringToIntegerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex1_Number.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda5/FilterMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda5/FilterMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +47,7 @@
     "Application.Ex1RefMain.executor": "Run",
     "Application.Ex1RefMainV2.executor": "Run",
     "Application.Ex1RefMainV4.executor": "Run",
+    "Application.Ex1_Number.executor": "Run",
     "Application.FilterExample.executor": "Run",
     "Application.FilterExample1.executor": "Run",
     "Application.FilterExample2.executor": "Run",
@@ -79,6 +73,7 @@
     "Application.MapExamplePrac.executor": "Run",
     "Application.MapMainV2.executor": "Run",
     "Application.MapMainV4.executor": "Run",
+    "Application.MapMainV5.executor": "Run",
     "Application.MyFunction2.executor": "Run",
     "Application.OperatorMain.executor": "Run",
     "Application.PredicateMain.executor": "Run",
@@ -114,13 +109,13 @@
       <recent name="lambda.lambda3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapMainV5">
-    <configuration name="FilterMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV2" />
+  <component name="RunManager" selected="Application.Ex1_Number">
+    <configuration name="Ex1_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex1_Number" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.filter.*" />
+          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex1_Number" />
         <item itemvalue="Application.MapMainV5" />
         <item itemvalue="Application.MapMainV4" />
         <item itemvalue="Application.MapMainV2" />
         <item itemvalue="Application.FilterMainV5" />
-        <item itemvalue="Application.FilterMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +197,7 @@
       <workItem from="1742988509041" duration="8747000" />
       <workItem from="1743033580928" duration="12540000" />
       <workItem from="1743073309104" duration="7175000" />
-      <workItem from="1743119437191" duration="5441000" />
+      <workItem from="1743119437191" duration="6616000" />
     </task>
     <servers />
   </component>
