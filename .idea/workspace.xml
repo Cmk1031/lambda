@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRef5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/StreamStartMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +95,7 @@
     "Application.ReduceExamplePrac.executor": "Run",
     "Application.RunnableMain.executor": "Run",
     "Application.SamMain.executor": "Run",
+    "Application.StreamStartMain.executor": "Run",
     "Application.SupplierMain.executor": "Run",
     "Application.TargetType2.executor": "Run",
     "Application.TargetType3.executor": "Run",
@@ -100,7 +103,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/study/inflearn/java-adv3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,7 +124,7 @@
       <recent name="lambda.lambda5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodRef4">
+  <component name="RunManager" selected="Application.StreamStartMain">
     <configuration name="MethodRef3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="methodref.MethodRef3" />
       <module name="java-adv3" />
@@ -172,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefStartV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodref.start.MethodRefStartV2" />
+    <configuration name="StreamStartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.StreamStartMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodref.start.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamStartMain" />
         <item itemvalue="Application.MethodRef4" />
         <item itemvalue="Application.MethodRef3" />
         <item itemvalue="Application.MethodRefEx2" />
         <item itemvalue="Application.MethodRefEx1" />
-        <item itemvalue="Application.MethodRefStartV2" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +213,9 @@
       <workItem from="1743033580928" duration="12540000" />
       <workItem from="1743073309104" duration="7175000" />
       <workItem from="1743119437191" duration="6616000" />
-      <workItem from="1743209291834" duration="11149000" />
+      <workItem from="1743209291834" duration="11930000" />
+      <workItem from="1743300689621" duration="599000" />
+      <workItem from="1743341734068" duration="1718000" />
     </task>
     <servers />
   </component>
