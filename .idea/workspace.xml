@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/LazyEvalMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/CreateStreamMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,7 @@
       <workItem from="1743300689621" duration="599000" />
       <workItem from="1743341734068" duration="2034000" />
       <workItem from="1743379997808" duration="2691000" />
-      <workItem from="1743420608588" duration="571000" />
+      <workItem from="1743420608588" duration="1762000" />
     </task>
     <servers />
   </component>
