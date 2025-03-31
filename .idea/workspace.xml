@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/operation/TerminalOperationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/PrimitiveStreamMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +127,7 @@
       <recent name="lambda.lambda5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TerminalOperationMain">
+  <component name="RunManager" selected="Application.PrimitiveStreamMain">
     <configuration name="IntermediateOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.operation.IntermediateOperationsMain" />
       <module name="java-adv3" />
@@ -167,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamStartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.StreamStartMain" />
+    <configuration name="PrimitiveStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.operation.PrimitiveStreamMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimitiveStreamMain" />
         <item itemvalue="Application.TerminalOperationMain" />
         <item itemvalue="Application.MapVsFlatMapMain" />
         <item itemvalue="Application.IntermediateOperationsMain" />
         <item itemvalue="Application.LazyEvalMain1" />
-        <item itemvalue="Application.StreamStartMain" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,7 @@
       <workItem from="1743300689621" duration="599000" />
       <workItem from="1743341734068" duration="2034000" />
       <workItem from="1743379997808" duration="2691000" />
-      <workItem from="1743420608588" duration="5303000" />
+      <workItem from="1743420608588" duration="6163000" />
     </task>
     <servers />
   </component>
