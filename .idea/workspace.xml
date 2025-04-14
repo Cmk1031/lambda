@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/operation/PrimitiveStreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors1Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors2Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +41,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BuilderGreeterExample.executor": "Run",
+    "Application.Collectors1Basic.executor": "Run",
+    "Application.Collectors2Map.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ConsumerMain.executor": "Run",
     "Application.Ex0Main.executor": "Run",
@@ -91,6 +94,7 @@
     "Application.MyStreamV3Main.executor": "Run",
     "Application.OperatorMain.executor": "Run",
     "Application.PredicateMain.executor": "Run",
+    "Application.PrimitiveStreamMain.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.ReduceExample.executor": "Run",
@@ -127,13 +131,13 @@
       <recent name="lambda.lambda5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimitiveStreamMain">
-    <configuration name="IntermediateOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.operation.IntermediateOperationsMain" />
+  <component name="RunManager" selected="Application.Collectors2Map">
+    <configuration name="Collectors1Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors1Basic" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.operation.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyEvalMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain1" />
+    <configuration name="Collectors2Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors2Map" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collectors2Map" />
+        <item itemvalue="Application.Collectors1Basic" />
         <item itemvalue="Application.PrimitiveStreamMain" />
         <item itemvalue="Application.TerminalOperationMain" />
         <item itemvalue="Application.MapVsFlatMapMain" />
-        <item itemvalue="Application.IntermediateOperationsMain" />
-        <item itemvalue="Application.LazyEvalMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +224,11 @@
       <workItem from="1743300689621" duration="599000" />
       <workItem from="1743341734068" duration="2034000" />
       <workItem from="1743379997808" duration="2691000" />
-      <workItem from="1743420608588" duration="6163000" />
+      <workItem from="1743420608588" duration="6968000" />
+      <workItem from="1743469967391" duration="4000" />
+      <workItem from="1743552715790" duration="3000" />
+      <workItem from="1743594982558" duration="49000" />
+      <workItem from="1744632942615" duration="1171000" />
     </task>
     <servers />
   </component>
