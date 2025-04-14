@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors1Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors2Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors3Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,7 @@
     "Application.BuilderGreeterExample.executor": "Run",
     "Application.Collectors1Basic.executor": "Run",
     "Application.Collectors2Map.executor": "Run",
+    "Application.Collectors3Group.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ConsumerMain.executor": "Run",
     "Application.Ex0Main.executor": "Run",
@@ -131,7 +131,7 @@
       <recent name="lambda.lambda5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collectors2Map">
+  <component name="RunManager" selected="Application.Collectors3Group">
     <configuration name="Collectors1Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors1Basic" />
       <module name="java-adv3" />
@@ -158,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapVsFlatMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.operation.MapVsFlatMapMain" />
+    <configuration name="Collectors3Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors3Group" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.operation.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collectors3Group" />
         <item itemvalue="Application.Collectors2Map" />
         <item itemvalue="Application.Collectors1Basic" />
         <item itemvalue="Application.PrimitiveStreamMain" />
         <item itemvalue="Application.TerminalOperationMain" />
-        <item itemvalue="Application.MapVsFlatMapMain" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +228,7 @@
       <workItem from="1743469967391" duration="4000" />
       <workItem from="1743552715790" duration="3000" />
       <workItem from="1743594982558" duration="49000" />
-      <workItem from="1744632942615" duration="1171000" />
+      <workItem from="1744632942615" duration="2716000" />
     </task>
     <servers />
   </component>
