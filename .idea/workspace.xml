@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/DownStreamMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/DownStreamMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,11 +125,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.collectors" />
       <recent name="methodref.start" />
       <recent name="lambda.lambda5.mystream" />
       <recent name="lambda.lambda5.map" />
       <recent name="lambda.lambda5.filter" />
-      <recent name="lambda.lambda5" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DownStreamMain1">
@@ -230,7 +229,7 @@
       <workItem from="1743469967391" duration="4000" />
       <workItem from="1743552715790" duration="3000" />
       <workItem from="1743594982558" duration="49000" />
-      <workItem from="1744632942615" duration="4070000" />
+      <workItem from="1744632942615" duration="4867000" />
     </task>
     <servers />
   </component>
