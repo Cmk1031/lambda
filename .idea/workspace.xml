@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2862fbb-54a7-403c-9e7e-6d33702eaa64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors3Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/DownStreamMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,7 @@
     "Application.Collectors3Group.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ConsumerMain.executor": "Run",
+    "Application.DownStreamMain1.executor": "Run",
     "Application.Ex0Main.executor": "Run",
     "Application.Ex1Main.executor": "Run",
     "Application.Ex1RefMain.executor": "Run",
@@ -131,7 +133,7 @@
       <recent name="lambda.lambda5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collectors3Group">
+  <component name="RunManager" selected="Application.DownStreamMain1">
     <configuration name="Collectors1Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors1Basic" />
       <module name="java-adv3" />
@@ -171,6 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DownStreamMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.DownStreamMain1" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.collectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimitiveStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.operation.PrimitiveStreamMain" />
       <module name="java-adv3" />
@@ -184,26 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerminalOperationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.operation.TerminalOperationMain" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.operation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DownStreamMain1" />
         <item itemvalue="Application.Collectors3Group" />
         <item itemvalue="Application.Collectors2Map" />
         <item itemvalue="Application.Collectors1Basic" />
         <item itemvalue="Application.PrimitiveStreamMain" />
-        <item itemvalue="Application.TerminalOperationMain" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +230,7 @@
       <workItem from="1743469967391" duration="4000" />
       <workItem from="1743552715790" duration="3000" />
       <workItem from="1743594982558" duration="49000" />
-      <workItem from="1744632942615" duration="2716000" />
+      <workItem from="1744632942615" duration="4070000" />
     </task>
     <servers />
   </component>
